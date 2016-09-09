@@ -1,6 +1,8 @@
 package com.bignerdranch.android.transitionexample;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.transition.Scene;
 import android.transition.TransitionInflater;
@@ -15,6 +17,7 @@ public class TransitionActivity extends Activity {
     private Scene mScene1;
     private Scene mScene2;
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,10 +35,12 @@ public class TransitionActivity extends Activity {
         mScene2 = Scene.getSceneForLayout(container, R.layout.fragment_transition_scene_2, this);
     }
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     public void goToScene1(View view) {
         mTransitionManager.transitionTo(mScene1);
     }
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     public void goToScene2(View view) {
         mTransitionManager.transitionTo(mScene2);
     }

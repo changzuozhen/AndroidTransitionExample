@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TransitionExample.iml" filepath="$PROJECT_DIR$/TransitionExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TransitionExample/TransitionExample-TransitionExample.iml" filepath="$PROJECT_DIR$/TransitionExample/TransitionExample-TransitionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidTransitionExample.iml" filepath="$PROJECT_DIR$/AndroidTransitionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransitionExample/TransitionExample.iml" filepath="$PROJECT_DIR$/TransitionExample/TransitionExample.iml" />
     </modules>
   </component>
 </project>
-
